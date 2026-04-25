@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atlas Local | Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="banner">
+      <div class="container">
+        <div class="brand" role="banner" aria-label="Site banner">
+          <img src="images/logo.svg" alt="Atlas Local logo">
+          <div>
+            <h1>Celine Obeid · Atlas Local</h1>
+            <p>Curated micro-itineraries for culture, calm, and connection.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <div class="container nav-inner">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="destination-detail.html">Detail</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+        <span class="badge">Contact</span>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <header class="page-title">
+      <div>
+        <h2>Contact</h2>
+        <p>Use the validated form below to request a custom itinerary or ask a planning question.</p>
+      </div>
+    </header>
+
+    <section class="contact-grid" aria-label="Contact form and support details">
+      <article class="contact-panel">
+        <h3>Request a custom plan</h3>
+        <p class="form-note">This page uses JavaScript form validation, converts the first letter of the first name, last name, and city to uppercase, and checks zip code and email formatting before submission.</p>
+
+        <form id="contactForm" action="#" method="post" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="firstname">First Name</label>
+              <input type="text" id="firstname" name="firstname" placeholder="First name" required>
+              <p class="error-message" id="firstnameError"></p>
+            </div>
+
+            <div class="field">
+              <label for="lastname">Last Name</label>
+              <input type="text" id="lastname" name="lastname" placeholder="Last name" required>
+              <p class="error-message" id="lastnameError"></p>
+            </div>
+
+            <div class="field">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="name@example.com" required>
+              <p class="error-message" id="emailError"></p>
+            </div>
+
+            <div class="field">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+              <p class="error-message" id="phoneError"></p>
+            </div>
+
+            <div class="field">
+              <label for="city">City</label>
+              <input type="text" id="city" name="city" placeholder="City" required>
+              <p class="error-message" id="cityError"></p>
+            </div>
+
+            <div class="field">
+              <label for="zipcode">Zip Code</label>
+              <input type="text" id="zipcode" name="zipcode" placeholder="12345" maxlength="5" required>
+              <p class="error-message" id="zipcodeError"></p>
+            </div>
+
+            <div class="field">
+              <label for="traveldate">Preferred Travel Date</label>
+              <input type="date" id="traveldate" name="traveldate" required>
+              <p class="error-message" id="traveldateError"></p>
+            </div>
+
+            <div class="field">
+              <label for="package">Package Interest</label>
+              <select id="package" name="package" required>
+                <option value="">Choose one</option>
+                <option value="essentials">Essentials</option>
+                <option value="plus">Plus</option>
+                <option value="premium">Premium</option>
+                <option value="custom">Custom</option>
+              </select>
+              <p class="error-message" id="packageError"></p>
+            </div>
+
+            <div class="field field-full">
+              <label for="message">Trip Details</label>
+              <textarea id="message" name="message" placeholder="Tell us the type of experience, budget, and any special requests." required></textarea>
+              <p class="error-message" id="messageError"></p>
+            </div>
+
+            <div class="field-full checkbox-row">
+              <input type="checkbox" id="agree" name="agree" required>
+              <label for="agree" class="small">I understand this is a sample student website and the form is included to demonstrate JavaScript validation features.</label>
+            </div>
+            <p class="error-message field-full" id="agreeError"></p>
+
+            <div class="field-full">
+              <button class="btn primary" type="submit">Submit Request</button>
+            </div>
+          </div>
+
+          <p id="formStatus" class="status-message" aria-live="polite"></p>
+        </form>
+      </article>
+
+      <aside class="info-panel">
+        <h3>Support details</h3>
+        <p class="small">Need quick answers before submitting? These project support times pair with the Services page.</p>
+        <ul class="info-list">
+          <li><strong>Email response window:</strong><br>Monday to Friday, 9:00 AM to 6:00 PM</li>
+          <li><strong>Custom itinerary requests:</strong><br>48-hour sample turnaround for course demonstration</li>
+          <li><strong>Planning topics:</strong><br>transportation, dining, lodging, and backup route ideas</li>
+        </ul>
+        <div class="service-note">
+          <p class="small" style="margin:0;">Validation examples on this page include capitalization for names and city, a 5-digit zip code check, and standard email formatting.</p>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Celine Obeid · <a href="mailto:obeid.c@northeastern.edu">obeid.c@northeastern.edu</a></p>
+    </div>
+  </footer>
+
+  <script src="js/validation.js"></script>
+</body>
+</html>

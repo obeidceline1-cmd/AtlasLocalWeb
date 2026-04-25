@@ -1,0 +1,21 @@
+IMAGE ATTRIBUTION
+
+This project includes the following photographs from Wikimedia Commons:
+
+1. Paris photo
+Title: Eiffel tower (Paris, France) (23529678683).jpg
+Author: Guillaume Speurt
+Source page: https://commons.wikimedia.org/wiki/File:Eiffel_tower_(Paris,_France)_(23529678683).jpg
+License: CC BY-SA 2.0
+
+2. Tokyo photo
+Title: Tokyo skyline - Sony A7R (11924331285).jpg
+Author: Luke Ma
+Source page: https://commons.wikimedia.org/wiki/File:Tokyo_skyline_-_Sony_A7R_(11924331285).jpg
+License: CC BY 2.0
+
+3. Rome photo
+Title: Rome (IT), Kolosseum -- 2013 -- 3394.jpg
+Author: Dietmar Rabich
+Source page: https://commons.wikimedia.org/wiki/File:Rome_(IT),_Kolosseum_--_2013_--_3394.jpg
+License: CC BY-SA 4.0

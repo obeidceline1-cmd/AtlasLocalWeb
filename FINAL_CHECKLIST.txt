@@ -1,0 +1,17 @@
+Atlas Local Final Deliverable Checklist
+
+1. Home page filename is index.html.
+2. All HTML pages are in the root folder.
+3. External stylesheet is in css/style.css.
+4. Images are in images/.
+5. JavaScript validation file is in js/validation.js.
+6. Media folder included in site structure.
+7. Every page includes banner, page title, and consistent navigation.
+8. Navigation links to all pages in the site, including destination-detail.html.
+9. Contact page uses JavaScript validation and capitalization for first name, last name, and city.
+10. Email and zip code validation included.
+11. Services page uses ordered lists with nested unordered lists and operating hours.
+12. Destinations pricing table converts to stacked cards for the smallest viewport.
+13. Responsive CSS breakpoints included.
+14. Semantic HTML5 elements used across pages.
+15. Site package flattened for GitHub Pages upload.
